@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.banner{
+    text-align: center;
+    justify-content: center;
+}
+
+.banner > h1{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.banner > img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.descripcion{
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    gap: 10rem;
+    justify-content: center;
+}
+
+.descripcion > p{
+    text-align: left;
+    font-weight: lighter;
+    font-size: large;
+    width: 25%;
+}
+
+.descripcion > img{
+    width: 25%;
+}
+
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1A13;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.caracteristicas > h2{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 300%;
+    font-weight: 300;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    gap: 8rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.icono > p{
+    padding-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    gap: 20px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+.box > img{
+    width: 100%;
+}
+
+footer{
+    background-color: #1E1A13;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size:  x-large;
+    font-weight: lighter;
+}
